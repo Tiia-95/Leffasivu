@@ -3,6 +3,7 @@ const leffalat = [];
 let elokuvat;
 let yksittäinen;
 
+//Tässä funktiossa ladataan leffateattereiden tiedot sivustoa ladattaessa
 function leffateattereiden_lataus() {
     var leffat = new XMLHttpRequest();
     
@@ -24,6 +25,7 @@ function leffateattereiden_lataus() {
     }
 }
 
+//Yhden leffateatterin nimi kerrallaan listataan alasvetovalikkoon ja luodaan niihin napit, josta voi valita kyseisen leffateatterin
 function uusiElementti(id, nimi) {
     var a = document.createElement("a");
     a.id = id;
@@ -34,6 +36,7 @@ function uusiElementti(id, nimi) {
     document.getElementById(a.id).onclick = function() {valinta(a.id, inputValue)};
 }
 
+//Tässä muodostetaan leffalistaus sivulle valitusta leffateatterista
 function valinta(id, nimi) {
     document.getElementById("leffalaatikko").innerHTML = "";
     document.getElementById("nimi").innerHTML = nimi;
@@ -81,12 +84,8 @@ function valinta(id, nimi) {
             div.appendChild(t);
             
             document.getElementById("leffalaatikko").appendChild(div);
-            
-            //listatutLeffat.push(yksittäinen[i].getElementsByTagName("Title")[0].childNodes[0].nodeValue);
         }
     }
-    //document.getElementById("laatikko").innerHTML = nimi + listatutLeffat;
-
 }
 
 document.addEventListener('DOMContentLoaded', leffateattereiden_lataus);
