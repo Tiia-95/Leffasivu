@@ -7,4 +7,4 @@ Projekti on koulutyönä tehty harjoitusnettisivu, jossa harjoiteltiin Javascrip
 Projektikansio sisältää neljä eri tiedostoa, jotka ovat index.HTML, Leffasivu.js, Leffasivu.css ja readme. Projekti kansio löytyy Githubista ja nettisivu on julkaistu Netlifyssä.
 
 ## Käyttöohjeet:
-Vasemmasta reunasta alasvetovalikosta valitaan leffateatteri. Tämän jälkeen sivusto lataa kyseissä leffateatterissa menevät leffat sivulle. Leffateatterin voi valita uudelleen ilman nollaamista ja sivu näyttää vain sen leffateatterin menevät leffat joka on valittu viimeiseksi.
+Vasemmasta reunasta alasvetovalikosta valitaan leffateatteri. Tämän jälkeen sivusto lataa kyseissä leffateatterissa menevät leffat sivulle. Leffat näkyvät alkamisaja mukaan aikajärjestyksessä. Leffateatterin voi valita uudelleen ilman nollaamista ja sivu näyttää vain sen leffateatterin menevät leffat joka on valittu viimeiseksi.
