@@ -8,3 +8,6 @@ Projektikansio sisältää neljä eri tiedostoa, jotka ovat index.HTML, Leffasiv
 
 ## Käyttöohjeet:
 Vasemmasta reunasta alasvetovalikosta valitaan leffateatteri. Tämän jälkeen sivusto lataa kyseissä leffateatterissa menevät leffat sivulle. Leffat näkyvät alkamisaja mukaan aikajärjestyksessä. Leffateatterin voi valita uudelleen ilman nollaamista ja sivu näyttää vain sen leffateatterin menevät leffat joka on valittu viimeiseksi.
+
+## Netlify-linkki
+https://wonderful-kepler-b81013.netlify.app/
